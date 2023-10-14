@@ -1,0 +1,65 @@
+/* Disna Joy */
+/* 8912839 */
+
+body {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 10;
+    padding: 20px;
+    font: 16px Arial, sans-serif;
+  }
+  
+  h1,
+  h2 {
+    color: #be0c0c;
+    font-variant: small-caps;
+  }
+  footer {
+    clear: both;
+  }
+  footer p {
+    font-size: 14px;
+    color: #0a920a;
+  }
+  .selector {
+    border: 5px solid #6cb5bf;
+    padding: 10px;
+    margin: auto;
+  }
+  .selector_image {
+    border: 2px solid #4ea4b0;
+    padding: 10px;
+    margin: auto;
+  }
+  main {
+    float: left;
+    width: 65%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: none;
+    line-height: 1.5;
+  }
+  ul > li > a {
+    text-decoration: none;
+    color: #1137b5;
+  }
+  
