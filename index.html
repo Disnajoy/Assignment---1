@@ -5,18 +5,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="APJ Abdulkalam"/>
+    <meta name="description" content="Avul Pakir Jainulabdeen Abdul Kalam's Biography"/>
     <title>A. P. J. Abdul Kalam</title>
-     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
   <body>
-    <header class="selector">
-      <h1>A. P. J. Abdul Kalam</h1>
+    <header class="structural">
+      <h1>Abdul Kalam's Web Page</h1>
     </header>
+    <nav class="structural">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Media</a>
+          <ul class="dropdown">
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="media.html">Videos</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+      <section>
+        <main class="structural">
+          <h2>Biography</h2>
+          <p id="para1"></p>
+          <p>
+            <img class="Abdulkalam" src="Images\image.jpg" alt="Former Indian President-APJ Abdulkalam"/>
+          <!-- </p>
 
-    <main>
-      <section><h2>Biography</h2></section>
-      <p>
+
+        </main>
+        </section>
+      <p> -->
         A.P.J. Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, 
         (born October 15, 1931, Rameswaram, India—died July 27, 2015, Shillong), 
         Indian scientist and politician who played a leading role in the development of India’s missile and nuclear weapons programs. 
@@ -30,7 +53,7 @@
         which incorporated aspects of the SLV-III and was launched in 1989.
       </p>
       
-      <section><h2>Images</h2></section>
+      <h2>Images</h2>
         <figure>
         <img class="selector_image"
             src="Images\APJ-2008.webp"
@@ -46,18 +69,43 @@
             src="https://cdn.britannica.com/48/222648-050-F4D0A2D8/President-of-India-A-P-J-Abdul-Kalam-2007.jpg"
             height="400px"
             width="400px"
-            alt="President Of India - APJ Abdul kalam"
-        />
+            alt="President Of India - APJ Abdul kalam"/>
         <figcaption>President Of India - APJ Abdul kalam</figcaption>
         </figure>
 
-      <section>
+        <table class="table">
+          <thead>
+              <tr>
+              <th colspan="2">Details</th></thead>  
+              </tr>
+              <tbody>
+                  <tr>
+                  <td>Date of birth</td>
+                  <td>15 October 1931</td>
+                  </tr>
+                  <tr>
+                  <td>Place of birth</td>
+                  <td>Rameswaram, India</td>
+                  </tr>
+                  <tr>
+                  <td>Date of death</td>
+                  <td>27 July 2015</td>
+                  </tr>
+                  <tr>
+                  <td>Place of death</td>
+                  <td>Shillong, India</td>
+                  </tr>
+              </tbody> 
+         
+        </table>
+        
+      <div>
         <h2>Quote</h2>
         <q cite="https://www.brainyquote.com/quotes/a_p_j_abdul_kalam_386005">Life is a difficult game. You can win it only by retaining your birthright to be a person. - APJ Abdul Kalam</q>
-      </section></div>
+      </div>
     </main>
 
-      <aside>
+      <aside class="structural">
       <h2>Additional Information</h2>
       <ul>
         <li><a href="https://presidentofindia.gov.in/abdulkalam/" target="_blank">President Of India</a></li>
@@ -66,8 +114,8 @@
         <li><a href="https://www.indiatoday.in/articles-on-apj-abdul-kalam-from-india-today" target="_blank">Article from India Today</a></li>
       </ul>
       </aside>
-
-    <footer id="ft" class="selector" >
+      </section>
+    <footer class="structural" >
       <p>&copy; Disna Joy 2023</p>
     </footer>
   </body>
